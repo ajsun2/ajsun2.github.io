@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP1</title>
+    <script src="https://kit.fontawesome.com/6922f2b642.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="main" id="main">
+        <br /> <br /> <br />
+        <h2> Bubble's Diary </h2>
+        <br /> <br /> <br />
+    </section>
+
+
+    <section class="aboutme" id="about-me">
+        <!-- <i class="fa-solid fa-paw fa-bounce"></i> -->
+        <i class="fa-solid fa-dog fa-bounce"></i>
+        <h2>About Me</h2>
+        <br />
+        <div class="row">
+            <div class="column"">
+                <img src="assets/id-card.png">
+                <p>Bubble Sun</p>
+            </div>
+            <div class="column"">
+                <img src="assets/age.png">
+                <p>13 yrs old</p>
+            </div>
+            <div class="column"">
+                <img src="assets/certificate.png">
+                <p>Shih Tzu Bichon</p>
+            </div>
+        </div>
+        <br />
+        <p>My name is Bubble and I recently moved out of the house to join my best friend in college!
+            She's basically my mom now. She tries to keep me company as much as she can, but sometimes I can't go with
+            her.
+            When that happens, I cry and sulk until she returns. Our reunion is always the best part of my day!</p>
+        <p>Back home, I have a younger sister. She's 5 yrs old and very annoying, but she just needs a little extra
+            love.</p>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <i class="fa-solid fa-photo-film fa-bounce"></i>
+        <h2> Gallery</h2>
+        <br/>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="assets/carousel/smiling.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/carousel/umn.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/carousel/yellow.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/carousel/flowers.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/carousel/sad.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <video controls src="assets/carousel/bubble.mp4">
+                </video>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </section>
+
+    <section class="goals" id="goals">
+        <i class="fa-solid fa-award fa-bounce"></i>
+        <h2>Goals</h2>
+        <p>Click to expand!</p>
+        <br/>
+        <div class="row">
+            <div class="column"">
+                <img id="travelmodal" src="assets/planetrip.png"
+            alt="Travel on the big three legacy carriers: United, Delta and American Airlines!">
+        <div id="modal1" class="modal">
+            <span class="closeTravel">&times;</span>
+            <img class="modal-content" src="assets/planetrip.png">
+            <div id="travelCaption"> </div>
+        </div>
+            </div>
+            <div class="column"">
+                <img id="foodmodal" src="assets/chicken.png" alt="Feast on a full sized entree for humans!">
+        <div id="modal2" class="modal">
+            <span class="closeFood">&times;</span>
+            <img class="modal-content" src="assets/chicken.png">
+            <div id="foodCaption"> </div>
+        </div>
+            </div>
+            <div class="column"">
+                <img id="squirrelmodal" src="assets/squirrel.png" alt="Catch my first squirrel (or rabbit)!">
+        <div id="modal3" class="modal">
+            <span class="closeSquirrel">&times;</span>
+            <img class="modal-content" src="assets/squirrel.png">
+            <div id="squirrelCaption"> </div>
+        </div>
+            </div>
+        </div>
+        <br/> <br/> <br/> <br/>
+        <div class="row">
+            <div class="column">
+                <img id="olympicmodal" src="assets/dog.png" alt="Participate in the Dog-Olympics!">
+                <div id="modal4" class="modal">
+                    <span class="closeOlympic">&times;</span>
+                    <img class="modal-content" src="assets/dog.png">
+                    <div id="olympicCaption"> </div>
+                </div>
+            </div>
+            <div class="column">
+                <img id="swimmodal" src="assets/swimming.png" alt="Learn to swim!">
+        <div id="modal5" class="modal">
+            <span class="closeSwim">&times;</span>
+            <img class="modal-content" src="assets/swimming.png">
+            <div id="swimCaption"> </div>
+        </div>
+            </div>
+            <div class="column">
+                <img id="hamstermodal" src="assets/hamster.png" alt="Adopt and raise my very own pet hamster!">
+        <div id="modal6" class="modal">
+            <span class="closeHamster">&times;</span>
+            <img class="modal-content" src="assets/hamster.png">
+            <div id="hamsterCaption"> </div>
+        </div>
+            </div>
+        </div>
+        <br/><br/>
+    </section>
+
+    <section id="entry" class="entry">
+        <i class="fa-solid fa-book fa-bounce"></i>
+        <h2>Journal Entries</h2>
+        <p> 9/25: I finally went to pet smart today to redeem my birthday reward! I got $3 off a bully stick and some more food, and sniffed the guinea pigs!! I peed on the floor tho <i class="fa-regular fa-face-flushed"></i> </p>
+        <p> 9/24: Nothing to report, what a boring day <i class="fa-regular fa-face-meh"></i></p>
+        <p> 9/22: Today is my birthday! I got a birthday coupon from PetSmart but we didn't have time to redeem it <i class="fa-regular fa-face-frown"></i> </p>
+        <p> 9/21: Went on a walk with Mom and her friend + their dog. I got some yummy treats and cute photos <i class="fa-regular fa-face-grin-stars"></i></p>
+        <p> 9/20: I went to KFT and chilled on the Main Quad with mom and her friends. No one got me a drink though.. <i class="fa-regular fa-face-sad-cry"></i> </p>
+        <p> 9/16: Woke up at 9 am just to get a haircut and turn into a naked rat <i class="fa-regular fa-face-tired"></i> </p>
+        <p> 9/4: Went to the dog park and met some friendly dawgs </p>
+    </section>
+    <header class="navbar" id="navbar">
+        <span id="title" href="#">Bubble's Diary</span>
+        <nav id="navbar-right">
+            <a href="#main" class='active'>Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#goals">Goals</a>
+            <a href="#entry">Entries</a>
+        </nav>
+    </header>
+    <script src="js/main.js"></script>
+</body>
+
+<footer>
+    <div>
+        <i class="fa-solid fa-person-breastfeeding"></i>
+        <span>Adrianne Sun &nbsp;</span>
+        <i class="fa-brands fa-instagram"></i>
+        <span>thiccbubsicle &nbsp;</span>
+        <i class="fa-regular fa-envelope"></i>
+        <span>bubbbblesun@gmail.com &nbsp;</span>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <a>Using Flaticon and Fontawesome</a>
+    </div>
+
+</footer>
+
+</html>
